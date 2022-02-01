@@ -1,4 +1,4 @@
-import "./App.css";
+import styles from "./App.module.css";
 import React, { Component } from "react";
 import Header from "./components/Header";
 import Body from "./components/Body";
@@ -8,13 +8,15 @@ import { BrowserRouter as Router } from "react-router-dom";
 class App extends Component {
   render() {
     return (
-      <>
+      <React.Fragment>
         <Router>
-          <Header />
-          <Body />
-          <Footer />
+          <div className={styles.app}>
+            <Header />
+            <Body />
+            <Footer />
+          </div>
         </Router>
-      </>
+      </React.Fragment>
     );
   }
 }

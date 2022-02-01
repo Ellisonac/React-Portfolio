@@ -1,4 +1,5 @@
 .mainContent {
+  flex: 7 1 auto;
   width: 94%;
   height: 80vh;
   background-color: antiquewhite;
