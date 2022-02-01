@@ -1,56 +1,36 @@
 import { Component } from "react";
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
-import Home from './sections/Home'
+import Home from "./sections/Home";
 import About from "./sections/About";
 import Portfolio from "./sections/Portfolio";
 import Contact from "./sections/Contact";
 import Resume from "./sections/Resume";
 
 class Body extends Component {
-  constructor(props) {
-    super();
-  }
-
-  getContent() {
-    switch (this.state.activePage) {
-      case "AboutMe":
-        return <About />;
-      case "Portfolio":
-        return <Portfolio />;
-      case "Contact":
-        return <Contact />;
-      case "Resume":
-        return <Resume />;
-      default:
-        throw new Error("Body Content not set");
-    }
-  }
-
   render() {
     return (
-      <>
+      <div className="main-content">
         <Routes>
-        <Route path="/">
-            <Home />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/portfolio">
-            <Portfolio />
-          </Route>
-          <Route path="/contact">
-            <Resume />
-          </Route>
-          <Route path="/resume">
-            <Resume />
-          </Route>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="resume" element={<Resume />} />
+          {/* Unmatched route hit */}
+          <Route
+            path="*"
+            element={
+              <main style={{ padding: "1rem" }}>
+                <p>
+                  This is not the text you were expecting to see, nor I for that
+                  matter.
+                </p>
+              </main>
+            }
+          />
         </Routes>
-      </>
-
-      // <div>{this.getContent()}</div>
-      // <div><{this.state.activePage}/></div>
+      </div>
     );
   }
 }

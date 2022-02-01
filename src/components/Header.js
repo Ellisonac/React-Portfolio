@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Navbar from "./Navbar";
 
 class Header extends Component {
 
@@ -6,7 +7,7 @@ class Header extends Component {
     return (
       <div>
         <h1>My Blog</h1>
-        <nav>NAV</nav>
+        <Navbar/>
       </div>
     )
   }
