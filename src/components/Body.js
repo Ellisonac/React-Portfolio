@@ -6,11 +6,12 @@ import About from "./sections/About";
 import Portfolio from "./sections/Portfolio";
 import Contact from "./sections/Contact";
 import Resume from "./sections/Resume";
+import styles from "./Body.module.css";
 
 class Body extends Component {
   render() {
     return (
-      <div className="main-content">
+      <div className={styles.mainContent}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />

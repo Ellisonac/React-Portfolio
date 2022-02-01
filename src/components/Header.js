@@ -1,14 +1,15 @@
 import { Component } from "react";
 import Navbar from "./Navbar";
+import styles from './Header.module.css'
 
 class Header extends Component {
 
   render() {
     return (
-      <div>
-        <h1>My Blog</h1>
+      <header className={styles.header}>
+        <h1>Andrew's Blog</h1>
         <Navbar/>
-      </div>
+      </header>
     )
   }
 }
