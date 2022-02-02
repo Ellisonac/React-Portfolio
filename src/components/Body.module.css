@@ -1,8 +1,14 @@
 .mainContent {
   flex: 7 1 auto;
+  display: flex;
+  justify-content: center;
   width: 94%;
   height: 80vh;
   background-color: antiquewhite;
   color:black;
   padding: 3%;
+}
+
+.mainContent section {
+  width: 50%;
 }
