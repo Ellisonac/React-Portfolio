@@ -1,0 +1,17 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--maincolor);
+  margin-bottom: 3%;
+}
+
+.project a {
+  text-align: center;
+}
+
+.project img {
+  width: 80%;
+  border-radius: 2rem;
+}

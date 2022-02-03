@@ -2,11 +2,16 @@
   {
     "title":"Segmentation of Impact Damage from X-Ray CT Scans",
     "body": "this is some text",
-    "images": []
+    "image": "CTVis.png",
+    "alt": "3D visualization of impacted composite damage",
+    "link": "https://escholarship.org/uc/item/3433636k",
+    "github": ""
   },
   {
     "title": "FOMO Calculator",
     "body": "Check how much you could have earned if you got in on the ground floor of Crypto",
-    "images": []
+    "image": "FOMOCalculator.png",
+    "link": "https://ellisonac.github.io/FOMO-Calculator/",
+    "github": "https://github.com/Ellisonac/FOMO-Calculator"
   }
 ]
