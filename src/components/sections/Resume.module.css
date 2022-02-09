@@ -1,0 +1,11 @@
+.resume {
+
+}
+
+.resume p {
+  color: rgb(59, 59, 59);
+}
+
+.entry {
+  display: flex;
+}

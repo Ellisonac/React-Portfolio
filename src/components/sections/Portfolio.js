@@ -1,6 +1,6 @@
 import { Component } from "react";
+import Container from "../UI/Container";
 import Project from './Project'
-
 
 class Portfolio extends Component {
 
@@ -13,7 +13,7 @@ class Portfolio extends Component {
   }
 
   render() {
-    return <div>{this.getContent()}</div>;
+    return <Container>{this.getContent()}</Container>;
   }
 }
 

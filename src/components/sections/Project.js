@@ -1,10 +1,8 @@
 import { Component } from "react";
 import Card from "../UI/Card";
-import styles from "./Project.module.css"
-
+import styles from "./Project.module.css";
 
 class Project extends Component {
-
   constructor(props) {
     super();
     this.title = props.title;
@@ -13,9 +11,6 @@ class Project extends Component {
     this.altText = props.alt;
     this.link = props.link;
     this.github = props.github;
-
-
-
   }
 
   render() {
@@ -24,11 +19,11 @@ class Project extends Component {
         <h3>{this.title}</h3>
         <p>{this.body}</p>
         <a href={this.link}>
-          <img src={`../../images/${this.image}`} alt={this.altText}/>
+          <img src={`../../images/${this.image}`} alt={this.altText} />
         </a>
         <a href={this.github}>Github</a>
       </Card>
-    )
+    );
   }
 }
 

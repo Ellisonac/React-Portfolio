@@ -1,0 +1,44 @@
+{
+  "experience": [
+    {
+      "title": "Full Stack Software Engineer",
+      "company": "Matroid",
+      "dates": "Feb 2022 -",
+      "description": ""
+    },
+    {
+      "title": "Aerospace Engineer",
+      "company": "NAVAIR",
+      "dates": "Nov 2020 - Feb 2022",
+      "description": "Developed automated tools to improve analysis methods."
+    },
+    {
+      "title": "Graduate Student Researcher",
+      "company": "University of California San Diego",
+      "dates": "Oct 2015 - Mar 2020",
+      "description": "Developed segmentation methods to convert 3D damage data from X-ray CT scans of damaged composite materials into finite element models."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Doctorate of Philosophy",
+      "school": "University of California San Diego",
+      "date": "Mar 2020"
+    },
+    {
+      "degree": "Master of Science",
+      "school": "University of California San Diego",
+      "date": "Jun 2017"
+    },
+    {
+      "degree": "Bachelor of Science",
+      "school": "University of California San Diego",
+      "date": "Jun 2015"
+    },
+    {
+      "degree": "Full Stack Web Development Bootcamp",
+      "school": "UCSD Extension",
+      "date": "Mar 2022"
+    }
+  ]
+} 

@@ -1,7 +1,7 @@
 [
   {
     "title":"Segmentation of Impact Damage from X-Ray CT Scans",
-    "body": "this is some text",
+    "body": "Automated segmentation of 3D CT scans into 2D damage maps.",
     "image": "CTVis.png",
     "alt": "3D visualization of impacted composite damage",
     "link": "https://escholarship.org/uc/item/3433636k",
@@ -13,5 +13,19 @@
     "image": "FOMOCalculator.png",
     "link": "https://ellisonac.github.io/FOMO-Calculator/",
     "github": "https://github.com/Ellisonac/FOMO-Calculator"
+  },
+  {
+    "title": "Fantasy Crypto",
+    "body": "Compete to design the best crypto currency portfolios.",
+    "image": "fantasy_crypto_homepage.png",
+    "link": "https://fantasy-crypto1.herokuapp.com/",
+    "github": "https://github.com/Ellisonac/Fantasy-Crypto"
+  },
+  {
+    "title": "Ultrasonic Scan Segmentation",
+    "body": "Separates scans of damaged composite materials into damage depth groupings.",
+    "image": "UT_Seg.png",
+    "link": "https://doi.org/10.1177/0021998319865311",
+    "github": ""
   }
 ]

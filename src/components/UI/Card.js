@@ -7,7 +7,7 @@ class Card extends Component {
     super();
 
     this.children = props.children;
-    this.classes = props.className;
+    this.classes = props.className ?? "";
   }
 
   render() {
