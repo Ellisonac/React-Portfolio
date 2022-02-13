@@ -6,6 +6,8 @@ This is a simple portfolio created with ReactJS containing my past projects, job
 
 ![License Badge](https://img.shields.io/badge/License-MIT-informational?logoColor=white&color=1CA2F1)
 
+![Screenshot of portfolio](./assets/final.png)
+
 ## Table of Contents
 
 - [Installation](#installation)
