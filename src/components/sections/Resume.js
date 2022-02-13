@@ -9,20 +9,20 @@ class Resume extends Component {
     return (
       <>
         <h2>Experience</h2>
-        {this.resume.experience.map((experience) =>
-          this.renderExperience(experience)
+        {this.resume.experience.map((experience, index) =>
+          this.renderExperience(experience,index)
         )}
         <h2>Education</h2>
-        {this.resume.education.map((education) =>
-          this.renderEducation(education)
+        {this.resume.education.map((education,index) =>
+          this.renderEducation(education,index)
         )}
       </>
     );
   };
 
-  renderExperience = (experience) => {
+  renderExperience = (experience, index) => {
     return (
-      <div className={styles.entry}>
+      <div className={styles.entry} key={index}>
         <div className={styles.title}>
           <h3>{experience.title}</h3>
           <p>{experience.dates}</p>
@@ -35,9 +35,9 @@ class Resume extends Component {
     );
   };
 
-  renderEducation = (education) => {
+  renderEducation = (education,index) => {
     return (
-      <div className={styles.entry}>
+      <div className={styles.entry} key={index}>
         <div className={styles.title}>
           <h3>{education.degree}</h3>
           <p>{education.date}</p>

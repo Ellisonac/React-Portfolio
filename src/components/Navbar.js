@@ -8,8 +8,8 @@ class Navbar extends Component {
     return (
       <nav className="navbar">
         <ul>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/about">About</NavLink>
+          {/* <NavLink to="/">Home</NavLink> */}
+          <NavLink to="/">About</NavLink>
           <NavLink to="/contact">Contact</NavLink>
           <NavLink to="/portfolio">Portfolio</NavLink>
           <NavLink to="/resume">Resume</NavLink>
